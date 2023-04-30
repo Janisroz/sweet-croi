@@ -18,6 +18,7 @@
 
 #logo-nav-link{
     float: left;
+    height: 80px;
 }
 
 #logo-nav-image{
@@ -47,5 +48,33 @@ li a{
 
 li a:hover{
     text-decoration: underline;
-    -webkit-transform: perspective(1px) translateZ(0);
+}
+
+#logo-and-description{
+    width: 100%;
+    background-color: #fcd9df;
+    overflow: hidden;
+    height: 800px;
+}
+
+#hero-image{
+    display: block;
+    clear: both;
+    height: 800px;
+    width: 800px;
+    margin-left: 10%;
+}
+
+#desc-text{
+    position: relative;
+    width: 800px;
+    height: 800px;
+    float: right;
+    bottom: 800px;
+}
+
+h2{
+    font-family: "Blenny", sans-serif;
+    font-size: 50px;
+    color: #336892;
 }
