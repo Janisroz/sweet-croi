@@ -1,6 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     border: none;
     background-color: #edfaff ;
+    font-family:"Montserrat", sans-serif;
+}
+
+@font-face {
+    font-family: "Blenny";
+    src: url(../fonts/FontsFree-Net-Blenny-W01-Black.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: "Blenny", sans-serif;
 }
