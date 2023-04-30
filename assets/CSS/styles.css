@@ -4,8 +4,9 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: #edfaff ;
+    background-color: #f6fbfd ;
     font-family:"Montserrat", sans-serif;
+    color: #336892 ;
 }
 
 @font-face {
@@ -13,4 +14,38 @@
     src: url(../fonts/FontsFree-Net-Blenny-W01-Black.ttf);
     font-weight: normal;
     font-style: normal;
+}
+
+#logo-nav-link{
+    float: left;
+}
+
+#logo-nav-image{
+    width: 80px;
+    height: 80px;
+}
+
+#nav-menu{
+    font-size: 20px;
+    line-height: 80px;
+    float: right;
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+li a{
+    text-decoration: wavy;
+}
+
+.current-location{
+    text-decoration: underline;
+}
+
+li a:hover{
+    text-decoration: underline;
+    -webkit-transform: perspective(1px) translateZ(0);
 }
