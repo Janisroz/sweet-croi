@@ -79,7 +79,7 @@ li a:hover{
     width: 800px;
     height: 800px;
     float: right;
-    bottom: 800px;
+    bottom: 470px;
     background-color: #fcd9df;
     margin-right: 10%;
 }
@@ -93,5 +93,7 @@ h2{
 
 #desc-text p{
     background-color: inherit;
+    font-size: 200%;
+    font-weight: 550;
 }
 
