@@ -16,14 +16,20 @@
     font-style: normal;
 }
 
+/* Header */
+
 #logo-nav-link{
     float: left;
     height: 80px;
+    text-decoration: none;
+    margin-left: 105px;
 }
 
-#logo-nav-image{
-    width: 80px;
+#logo-nav-link h1{
     height: 80px;
+    line-height: 105px;
+    font-family: "Blenny", sans-serif;
+    font-size: 50px;
 }
 
 #nav-menu{
@@ -31,6 +37,7 @@
     line-height: 80px;
     float: right;
     list-style: none;
+    margin-right: 105px;
 }
 
 li{
@@ -38,9 +45,9 @@ li{
     margin-right: 10px;
 }
 
-li a{
+/* li a{
     text-decoration: wavy;
-}
+/* } NOT WORKING AS NEED TO IMPORT HOVER CODE! */
 
 .current-location{
     text-decoration: underline;
@@ -49,6 +56,8 @@ li a{
 li a:hover{
     text-decoration: underline;
 }
+
+/* Hero & Description Section */
 
 #logo-and-description{
     width: 100%;
@@ -71,10 +80,18 @@ li a:hover{
     height: 800px;
     float: right;
     bottom: 800px;
+    background-color: #fcd9df;
+    margin-right: 10%;
 }
 
 h2{
     font-family: "Blenny", sans-serif;
     font-size: 50px;
     color: #336892;
+    background-color: inherit;
 }
+
+#desc-text p{
+    background-color: inherit;
+}
+
