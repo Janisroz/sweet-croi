@@ -40,7 +40,7 @@
     margin-right: 105px;
 }
 
-li{
+#nav-menu > li{
     display: inline-block;
     margin-right: 10px;
 }
@@ -150,24 +150,47 @@ hr{
     text-align: center;
     height: 400px;
     width: 600px;
-    position: relative;
-    bottom: 610px;
+    position: absolute;
+    top:890px;
     border: #336892 solid;
     border-radius: 600px;
     font-size: 500%;
     padding-top: 200px;
     background-color: rgb(252, 217, 223, 0.5);
     font-family: "Blenny", sans-serif;
+    visibility: hidden;
 }
 
 #hover-text-right{
     padding-top: 200px;
     height: 400px;
     line-height: 100px;
-    visibility: hidden;
 }
 
-#hover-text-right:hover{
+.hover-text:hover{
     visibility: visible;
 }
+    
+
+
+/*Footer */
+
+footer{
+    height: 200px;
+}
+
+#footer{
+    height: 100px;
+    width: 100%;
+}
+
+.footer-link{
+    font-size: 200%;
+    text-align: center;
+    /* margin-right: 50px; */
+    width: 50%;
+    display: inline-block;
+}
+
+
 
