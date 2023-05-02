@@ -97,14 +97,18 @@ h2{
     font-weight: 550;
 }
 
+hr{
+    border: 5px solid #f6fbfd;
+}
+
+/* menu link section */
+
 #menu-link-section{
     width: 100%;
-    max-height: 400px;
 }
 
 .menu-links{
     width: 33%;
-    max-height: 400px;
 }
 
 #macaron-image{
@@ -116,7 +120,28 @@ h2{
 }
 
 .menu-link-image{
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 600px;
+    max-height: 600px;
     object-fit: cover;
+    border: solid;
+    border-radius: 600px;
+}
+
+#menu-link-text{
+    margin:0 auto;
+}
+
+.menu-links > h2{
+    text-align: center;
+    font-size: 500%;
+    line-height: 120px;
+    padding: 150px;
+}
+
+#left-image{
+    float: right;
+}
+
+#center-heading{
+    height: 600px;
 }
