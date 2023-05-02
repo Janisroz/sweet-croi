@@ -145,3 +145,29 @@ hr{
 #center-heading{
     height: 600px;
 }
+
+.hover-text{
+    text-align: center;
+    height: 400px;
+    width: 600px;
+    position: relative;
+    bottom: 610px;
+    border: #336892 solid;
+    border-radius: 600px;
+    font-size: 500%;
+    padding-top: 200px;
+    background-color: rgb(252, 217, 223, 0.5);
+    font-family: "Blenny", sans-serif;
+}
+
+#hover-text-right{
+    padding-top: 200px;
+    height: 400px;
+    line-height: 100px;
+    visibility: hidden;
+}
+
+#hover-text-right:hover{
+    visibility: visible;
+}
+
