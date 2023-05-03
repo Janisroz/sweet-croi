@@ -131,6 +131,7 @@ hr{
 
 #menu-link-text{
     margin:0 auto;
+    height: 620px;
 }
 
 .menu-links > h2{
@@ -185,20 +186,31 @@ hr{
 /*Footer */
 
 footer{
-    height: 200px;
+    height: 100px;
+    margin-top: 20px;
 }
 
-#footer{
+#footer-list{
     height: 100px;
     width: 100%;
+    list-style: none;
 }
 
 .footer-link{
     font-size: 200%;
     text-align: center;
-    /* margin-right: 50px; */
+    
     width: 50%;
     display: inline-block;
+}
+
+#facebook{
+    float: left;
+    font-size: 350%;
+}
+
+#instagram{
+    float: right;
 }
 
 
