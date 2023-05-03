@@ -113,10 +113,12 @@ hr{
 
 #macaron-image{
     float: left;
+    position: relative;
 }
 
 #cupcake-image{
-    float:right
+    float:right;
+    position: relative;
 }
 
 .menu-link-image{
@@ -140,6 +142,7 @@ hr{
 
 #left-image{
     float: right;
+    position: relative;
 }
 
 #center-heading{
@@ -151,14 +154,20 @@ hr{
     height: 400px;
     width: 600px;
     position: absolute;
-    top:890px;
+    top:0;
     border: #336892 solid;
     border-radius: 600px;
     font-size: 500%;
     padding-top: 200px;
     background-color: rgb(252, 217, 223, 0.5);
     font-family: "Blenny", sans-serif;
-    visibility: hidden;
+    opacity: 0;
+}
+
+.hover-text p{
+    background-color:transparent;
+    font-family: "Blenny", sans-serif;
+    border-radius: inherit;
 }
 
 #hover-text-right{
@@ -168,7 +177,7 @@ hr{
 }
 
 .hover-text:hover{
-    visibility: visible;
+    opacity: 1;
 }
     
 
