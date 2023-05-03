@@ -4,9 +4,9 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: #f6fbfd ;
     font-family:"Montserrat", sans-serif;
     color: #336892 ;
+    background-color: #d4e6ee ;
 }
 
 @font-face {
@@ -17,7 +17,6 @@
 }
 
 /* Header */
-
 #logo-nav-link{
     float: left;
     height: 80px;
@@ -43,11 +42,11 @@
 #nav-menu > li{
     display: inline-block;
     margin-right: 10px;
-}
+}    
 
-/* li a{
-    text-decoration: wavy;
-/* } NOT WORKING AS NEED TO IMPORT HOVER CODE! */
+li a{
+    text-decoration: none;
+  } /* Horizontal Wave NOT WORKING AS NEED TO IMPORT HOVER CODE! */
 
 .current-location{
     text-decoration: underline;
@@ -98,17 +97,19 @@ h2{
 }
 
 hr{
-    border: 5px solid #f6fbfd;
+    border: 5px solid #d4e6ee;
 }
 
 /* menu link section */
 
 #menu-link-section{
     width: 100%;
+    height: 620px;
 }
 
 .menu-links{
     width: 33%;
+    height: 620px;
 }
 
 #macaron-image{
@@ -131,15 +132,14 @@ hr{
 
 #menu-link-text{
     margin:0 auto;
-    height: 620px;
-}
+    }
 
 .menu-links > h2{
     text-align: center;
     font-size: 500%;
     line-height: 120px;
-    padding: 150px;
-}
+    padding-top: 250px;
+    }
 
 #left-image{
     float: right;
@@ -147,7 +147,7 @@ hr{
 }
 
 #center-heading{
-    height: 600px;
+    height: 370px;
 }
 
 .hover-text{
@@ -184,34 +184,37 @@ hr{
 
 
 /*Footer */
-
-footer{
-    height: 100px;
-    margin-top: 20px;
-}
-
 #footer-list{
+    margin-top: 20px;
     height: 100px;
     width: 100%;
     list-style: none;
+    background-color: #fcd9df;
 }
 
 .footer-link{
     font-size: 200%;
     text-align: center;
-    
-    width: 50%;
     display: inline-block;
 }
 
 #facebook{
     float: left;
     font-size: 350%;
+    margin-left: 33%;
 }
 
 #instagram{
     float: right;
+    margin-right: 33%;
+    font-size: 350%;
 }
 
+.footer-link > a{
+    background-color: #fcd9df;
+}
 
+i{
+    background-color: #fcd9df ;
+}
 
