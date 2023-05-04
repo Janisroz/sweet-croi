@@ -194,12 +194,16 @@ footer{
     width: 100%;
     list-style: none;
     background-color: #fcd9df;
+    position: absolute;
+    bottom: 0;
 }
 
 .footer-link{
     font-size: 200%;
     text-align: center;
     display: inline-block;
+    padding-top: 15px;
+    background-color: #fcd9df;
 }
 
 #facebook{
@@ -223,20 +227,63 @@ i{
 }
 
 /* menu styles */
-#left-macarons{
-    width: 800px;
-    height: 800px;
+.left-container{
+    width: 900px;
+    height: 900px;
     float: left;
-    background-color: blue;
+    border: 10px double;
     clear: both;
     display: inline-block;
+    margin-left: 10%;
+    margin-right: 5%;
+    background-color: #fcd9df;
+    margin-bottom: 20px;
+
 }
 
-#right-cupcakes{
-    width: 800px;
-    height: 800px;
+.right-container{
+    width: 900px;
+    height: 900px;
     float: right;
-    background-color: pink;
-    clear: both;
+    border: 10px double;
     display: inline-block;
+    margin-left: 20%;
+    margin-right: 10%;
+    background-color: #fcd9df;
+    margin-bottom: 20px;
+
+}
+
+.menu-heading{
+    text-align: center;
+    font-size:6em;
+}
+
+.menu-list{
+    list-style: none;
+    background-color: #fcd9df;
+}
+
+.menu-list > li {
+    font-weight: 800;
+    font-size: 3em;
+    margin-bottom: 10%;
+    text-align: center;
+    background-color: #fcd9df;
+}
+
+.menu-list-image{
+    width: 100%;
+    height: 100%;
+}
+
+/* Menu Footer */
+
+#footer-list-menu{
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    list-style: none;
+    background-color: #fcd9df;
+    position: absolute;
 }
