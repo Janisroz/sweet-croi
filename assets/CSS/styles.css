@@ -184,6 +184,10 @@ hr{
 
 
 /*Footer */
+footer{
+    clear: both;
+}
+
 #footer-list{
     margin-top: 20px;
     height: 100px;
@@ -218,3 +222,21 @@ i{
     background-color: #fcd9df ;
 }
 
+/* menu styles */
+#left-macarons{
+    width: 800px;
+    height: 800px;
+    float: left;
+    background-color: blue;
+    clear: both;
+    display: inline-block;
+}
+
+#right-cupcakes{
+    width: 800px;
+    height: 800px;
+    float: right;
+    background-color: pink;
+    clear: both;
+    display: inline-block;
+}
