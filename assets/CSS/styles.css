@@ -213,13 +213,15 @@ i{
 }
 
 /* menu styles */
+.menu-section{
+    display: flex;
+    justify-content: space-between;
+}
+
 .left-container{
-    width: 900px;
-    height: 900px;
-    float: left;
+    width: 46.5vh;
+    height: 46.5vh;
     border: 10px double;
-    clear: both;
-    display: inline-block;
     margin-left: 15%;
     background-color: #fcd9df;
     margin-bottom: 20px;
@@ -227,11 +229,9 @@ i{
 }
 
 .right-container{
-    width: 900px;
-    height: 900px;
-    float: right;
+    width: 46.5vh;
+    height: 46.5vh;
     border: 10px double;
-    display: inline-block;
     margin-right: 15%;
     background-color: #fcd9df;
     margin-bottom: 20px;
@@ -240,7 +240,7 @@ i{
 
 .menu-heading{
     text-align: center;
-    font-size:6em;
+    font-size:5.8em;
 }
 
 .menu-list{
@@ -261,13 +261,3 @@ i{
     height: 100%;
 }
 
-/* Menu Footer */
-
-#footer-list-menu{
-    margin-top: 20px;
-    height: 100px;
-    width: 100%;
-    list-style: none;
-    background-color: #fcd9df;
-    position: absolute;
-}
