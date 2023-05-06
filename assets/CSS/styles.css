@@ -180,37 +180,26 @@ hr{
 
 
 /*Footer */
-footer{
-    clear: both;
-
-}
-
 #footer-list{
-    margin-top: 20px;
-    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.5vh;
     width: 100%;
     list-style: none;
     background-color: #fcd9df;
-    position: relative;
-    bottom: 0;
 }
 
 .footer-link{
-    font-size: 200%;
-    text-align: center;
-    display: inline-block;
-    padding-top: 15px;
     background-color: #fcd9df;
 }
 
 #facebook{
-    float: left;
     font-size: 350%;
     margin-left: 33%;
 }
 
 #instagram{
-    float: right;
     margin-right: 33%;
     font-size: 350%;
 }
