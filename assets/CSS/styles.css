@@ -276,6 +276,14 @@ i{
 }
 
 /* Form Page */
+#form-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
 form{
     display: flex;
     flex-direction: column;
@@ -323,4 +331,13 @@ input{
     width: 40vh;
     height: 20vh;
     font-size: 150%;
+}
+
+#form-image-container{
+    width: 40vh;
+}
+
+#form-image-container > img{
+    width: 100%;
+    height: auto;
 }
