@@ -39,14 +39,14 @@ header{
     font-size: 1.7em;
     height: 4.43vh;
     list-style: none;
-    margin-right: 5%;
+    margin-right: 20%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 #nav-menu > li{
-    width: 3vw;
+    width: auto;
     margin-right: 5%;
 }    
 
@@ -176,7 +176,21 @@ hr{
 .hover-text:hover{
     opacity: 1;
 }
-    
+
+/* link to form page */
+#form-link-section{
+    display: flex;
+    justify-content: center;
+}
+
+#form-link-heading{
+    text-align: center;
+    font-size: 500%;
+    border: 10px double;
+}
+#form-link-section > div{
+    width: 40%;
+}
 
 
 /*Footer */
