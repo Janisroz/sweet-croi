@@ -109,6 +109,8 @@ hr{
     padding-top: 0.6%;
     padding-bottom: 0.6%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu-links{
@@ -117,11 +119,15 @@ hr{
 
 #macaron-image{
     order: 0;
+    display: flex;
+    justify-content: center;
 
 }
 
-#cupcake-image{
+#right-image{
     order: 2;
+    display: flex;
+    justify-content: center;
 }
 
 .menu-link-image{
@@ -131,39 +137,31 @@ hr{
     border-radius: 46.5vh;
 }
 
-#menu-link-text{
-    
-    }
-
 .menu-links > h2{
     text-align: center;
     font-size: 500%;
-    line-height: 120px;
-    padding-top: 390px;
     }
 
 #left-image{
     margin-left: 2%;
-}
-
-#center-heading{
-    height: 370px;
+    display: flex;
+    justify-content: center;
 }
 
 .hover-text{
-    text-align: center;
-    height: 600px;
-    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46.5vh;
+    width: 46.5vh;
     position: absolute;
-    top:0;
+    top:51vh;
     border: #336892 solid;
     border-radius: 600px;
     font-size: 500%;
-    padding-top: 300px;
     background-color: rgb(252, 217, 223, 0.5);
     font-family: "Blenny", sans-serif;
     opacity: 0;
-    line-height: 300px;
 }
 
 .hover-text p{
@@ -172,11 +170,8 @@ hr{
     border-radius: inherit;
 }
 
-#hover-text-right{
-    padding-top: 300px;
-    height: 600px;
-    /* line-height: 300px; */
-}
+ 
+
 
 .hover-text:hover{
     opacity: 1;
