@@ -275,3 +275,52 @@ i{
     height: 100%;
 }
 
+/* Form Page */
+form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+#form-heading{
+    text-align: center;
+}
+
+.form-text{
+    font-size: 200%;
+}
+
+.input-text{
+    background-color: whitesmoke;
+    padding: 15px 10px;
+    line-height: 140%;
+    width: 40vh;
+    margin-bottom: 0.5vh;
+}
+
+#submit{
+    font-size: 200%;
+    background-color: #fcd9df;
+    border-radius: 20%;
+    width: 12vh;
+    height: 4vh;
+    margin: 1vh 0;
+    cursor: pointer;
+}
+
+input{
+    font-size: 150%;
+}
+
+#order{
+    padding: 15px 10px;
+    line-height: 140%;
+}
+
+#description-input{
+    background-color: whitesmoke;
+    width: 40vh;
+    height: 20vh;
+    font-size: 150%;
+}
