@@ -281,6 +281,7 @@ i{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin: 1vh 0;
 
 }
 
@@ -289,6 +290,7 @@ form{
     flex-direction: column;
     align-content: center;
     align-items: center;
+    border: #336892 15px double;
 }
 
 #form-heading{
@@ -340,4 +342,5 @@ input{
 #form-image-container > img{
     width: 100%;
     height: auto;
+    border: #336892 15px double;
 }
