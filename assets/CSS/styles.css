@@ -38,7 +38,7 @@ header{
 #nav-menu{
     font-size: 1.7em;
     height: 5vh;
-    width: 23vh;
+    width: 30vh;
     list-style: none;
     margin-right: 20%;
     display: flex;
@@ -343,4 +343,92 @@ input{
     width: 100%;
     height: auto;
     border: #336892 15px double;
+}
+
+/* Media Queries */
+
+/* for screens from 1750px wide and down */
+
+@media screen and (max-width:1750px){
+    #hero-image{
+        width: 50%;
+        margin-left: 0;
+    }
+
+    h2{
+        font-size: 2.5em;
+    }
+
+    #desc-text{
+        margin-right: 0%;
+        width: 50%;
+    }
+}
+
+
+/* for screens from 1200px wide and down */
+
+@media screen and (max-width:1200px){
+    #logo-and-description{
+        flex-direction: column;
+        height: auto;
+    }
+
+    #desc-text{
+        margin-right: 0%;
+        width: 70%;
+    }
+}
+
+
+/* for screens from 920px wide and down */
+@media screen and (max-width:920px){
+    #desc-text{
+        margin-right: 0%;
+        width: 90%;
+    }
+}
+
+/* for screens from 720px wide and down */
+@media screen and (max-width:720px){
+    h2{
+        font-size: 1.8em;
+    }
+
+    #desc-text p{
+        font-size: 150%;
+    }
+}
+
+/* for screens from 540px wide and down */
+@media screen and (max-width:720px){
+    h2{
+        font-size: 1.5em;
+    }
+
+    #desc-text p{
+        font-size: 125%;
+    }
+}
+
+/* for screens from 445px wide and down */
+@media screen and (max-width:445px){
+    h2{
+        font-size: 1.25em;
+    }
+
+    #desc-text p{
+        font-size: 100%;
+    }
+}
+
+/* for screens from 285px wide and down */
+@media screen and (max-width:285px){
+    h2{
+        font-size: 0.75em;
+    }
+
+    #desc-text p{
+        font-size: 75%;
+    }
 }
