@@ -14,6 +14,7 @@
     src: url(../fonts/FontsFree-Net-Blenny-W01-Black.ttf);
     font-weight: normal;
     font-style: normal;
+    flex-wrap: wrap;
 }
 
 /* Header */
@@ -22,6 +23,7 @@ header{
     align-content: center;
     justify-content: space-between;
     overflow: hidden;
+
 }
 #logo-nav-link{
     height: 4.43vh;
@@ -392,6 +394,10 @@ input{
 
 /* for screens from 720px wide and down */
 @media screen and (max-width:720px){
+    header{
+        justify-content: center;
+    }
+
     h2{
         font-size: 1.8em;
     }
