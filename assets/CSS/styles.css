@@ -21,6 +21,7 @@ header{
     display: flex;
     align-content: center;
     justify-content: space-between;
+    overflow: hidden;
 }
 #logo-nav-link{
     height: 4.43vh;
@@ -29,31 +30,31 @@ header{
 }
 
 #logo-nav-link h1{
-    height: 100%;
-    line-height: 230%;
+    line-height: 1.6em;
     font-family: "Blenny", sans-serif;
-    font-size: 3.125em;
+    font-size: 3em;
 }
 
 #nav-menu{
     font-size: 1.7em;
     height: 5vh;
-    width: 30vh;
     list-style: none;
-    margin-right: 20%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 
 #nav-menu > li{
-    width: auto;
     margin-right: 5%;
 }    
 
 li a{
     text-decoration: none;
-  } /* Horizontal Wave NOT WORKING AS NEED TO IMPORT HOVER CODE! */
+  }
+
+  #quote-link{
+    width: 24vh;
+
+  }
 
 .current-location{
     text-decoration: underline;
