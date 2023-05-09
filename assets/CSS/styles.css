@@ -121,6 +121,7 @@ hr {
 
 .menu-links {
     width: 33%;
+    background: transparent;
 }
 
 #macaron-image {
@@ -372,6 +373,26 @@ input {
     }
 }
 
+/* for screens from 1300px wide and down */
+@media screen and (max-width:1300px) {
+    .menu-link-image {
+        max-height: 30vh;
+    }
+
+    .hover-text {
+        height: 30vh;
+        width: 30vh;
+        top: 53.5vh;
+        font-size: 300%;
+
+    }
+
+    .menu-links>h2 {
+        font-size: 300%;
+    }
+
+}
+
 
 /* for screens from 1200px wide and down */
 
@@ -384,6 +405,11 @@ input {
     #desc-text {
         margin-right: 0%;
         width: 70%;
+        text-align: center;
+    }
+
+    .hover-text {
+        top: 87.4vh;
     }
 }
 
@@ -395,6 +421,8 @@ input {
         width: 90%;
     }
 }
+
+
 
 /* for screens from 720px wide and down */
 @media screen and (max-width:750px) {
