@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
-    font-family:"Montserrat", sans-serif;
-    color: #336892 ;
-    background-color: #d4e6ee ;
+    font-family: "Montserrat", sans-serif;
+    color: #336892;
+    background-color: #d4e6ee;
 }
 
 @font-face {
@@ -18,57 +18,59 @@
 }
 
 /* Header */
-header{
+header {
     display: flex;
     align-content: center;
     justify-content: space-between;
     overflow: hidden;
+    align-items: center;
 
 }
-#logo-nav-link{
+
+#logo-nav-link {
     height: 4.43vh;
     text-decoration: none;
     margin-left: 1%;
 }
 
-#logo-nav-link h1{
+#logo-nav-link h1 {
     line-height: 1.6em;
     font-family: "Blenny", sans-serif;
     font-size: 3em;
 }
 
-#nav-menu{
+#nav-menu {
     font-size: 1.7em;
-    height: 5vh;
+    height: 7vh;
     list-style: none;
     display: flex;
     align-items: center;
 }
 
-#nav-menu > li{
+.nav-link {
     margin-right: 5%;
-}    
+}
 
-li a{
+li a {
     text-decoration: none;
-  }
+}
 
-  #quote-link{
-    width: 24vh;
+#quote-link {
+    width: 27vh;
 
-  }
+}
 
-.current-location{
+.current-location {
     text-decoration: underline;
 }
 
-li a:hover{
+li a:hover {
     text-decoration: underline;
 }
 
 /* Hero & Description Section */
 
-#logo-and-description{
+#logo-and-description {
     width: 100%;
     background-color: #fcd9df;
     overflow: hidden;
@@ -78,37 +80,37 @@ li a:hover{
     justify-content: space-between;
 }
 
-#hero-image{
+#hero-image {
     width: 31.5%;
     margin-left: 10%;
 }
 
-#desc-text{
+#desc-text {
     width: 30.18%;
     background-color: #fcd9df;
     margin-right: 10%;
 }
 
-h2{
+h2 {
     font-family: "Blenny", sans-serif;
     font-size: 3.2em;
     color: #336892;
     background-color: inherit;
 }
 
-#desc-text p{
+#desc-text p {
     background-color: inherit;
     font-size: 200%;
     font-weight: 550;
 }
 
-hr{
+hr {
     border: 5px solid #d4e6ee;
 }
 
 /* menu link section */
 
-#menu-link-section{
+#menu-link-section {
     width: 100%;
     padding-top: 0.6%;
     padding-bottom: 0.6%;
@@ -117,87 +119,89 @@ hr{
     align-items: center;
 }
 
-.menu-links{
+.menu-links {
     width: 33%;
 }
 
-#macaron-image{
+#macaron-image {
     order: 0;
     display: flex;
     justify-content: center;
 
 }
 
-#right-image{
+#right-image {
     order: 2;
     display: flex;
     justify-content: center;
 }
 
-.menu-link-image{
+.menu-link-image {
     max-height: 46.5vh;
     object-fit: cover;
     border: solid;
     border-radius: 46.5vh;
 }
 
-.menu-links > h2{
+.menu-links>h2 {
     text-align: center;
     font-size: 500%;
-    }
+}
 
-#left-image{
+#left-image {
     margin-left: 2%;
     display: flex;
     justify-content: center;
 }
 
-.hover-text{
+.hover-text {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 46.5vh;
     width: 46.5vh;
     position: absolute;
-    top:51vh;
+    top: 54vh;
     border: #336892 solid;
     border-radius: 600px;
     font-size: 500%;
     background-color: rgb(252, 217, 223, 0.5);
     font-family: "Blenny", sans-serif;
     opacity: 0;
+    text-align: center;
 }
 
-.hover-text p{
-    background-color:transparent;
+.hover-text p {
+    background-color: transparent;
     font-family: "Blenny", sans-serif;
     border-radius: inherit;
 }
 
- 
-.hover-text:hover{
+
+.hover-text:hover {
     opacity: 1;
 }
 
 /* link to form page */
-#form-link-section{
+#form-link-section {
     display: flex;
     justify-content: center;
     padding-bottom: 0.6%;
 }
 
-#form-link-heading{
+#form-link-heading {
     text-align: center;
     font-size: 500%;
     border: 10px double;
 }
-#form-link-section > div{
+
+#form-link-section>div {
     width: 40%;
 }
 
 
 /*Footer */
-#footer-list{
+#footer-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -207,35 +211,35 @@ hr{
     background-color: #fcd9df;
 }
 
-.footer-link{
+.footer-link {
     background-color: #fcd9df;
 }
 
-#facebook{
+#facebook {
     font-size: 350%;
     margin-left: 33%;
 }
 
-#instagram{
+#instagram {
     margin-right: 33%;
     font-size: 350%;
 }
 
-.footer-link > a{
+.footer-link>a {
     background-color: #fcd9df;
 }
 
-i{
-    background-color: #fcd9df ;
+i {
+    background-color: #fcd9df;
 }
 
 /* menu styles */
-.menu-section{
+.menu-section {
     display: flex;
     justify-content: space-between;
 }
 
-.left-container{
+.left-container {
     width: 46.5vh;
     height: 46.5vh;
     border: 10px double;
@@ -245,7 +249,7 @@ i{
 
 }
 
-.right-container{
+.right-container {
     width: 46.5vh;
     height: 46.5vh;
     border: 10px double;
@@ -255,17 +259,17 @@ i{
 
 }
 
-.menu-heading{
+.menu-heading {
     text-align: center;
-    font-size:5.8em;
+    font-size: 5.8em;
 }
 
-.menu-list{
+.menu-list {
     list-style: none;
     background-color: #fcd9df;
 }
 
-.menu-list > li {
+.menu-list>li {
     font-weight: 800;
     font-size: 3em;
     margin-bottom: 10%;
@@ -273,13 +277,13 @@ i{
     background-color: #fcd9df;
 }
 
-.menu-list-image{
+.menu-list-image {
     width: 100%;
     height: 100%;
 }
 
 /* Form Page */
-#form-section{
+#form-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -288,7 +292,7 @@ i{
 
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -296,15 +300,15 @@ form{
     border: #336892 15px double;
 }
 
-#form-heading{
+#form-heading {
     text-align: center;
 }
 
-.form-text{
+.form-text {
     font-size: 200%;
 }
 
-.input-text{
+.input-text {
     background-color: whitesmoke;
     padding: 15px 10px;
     line-height: 140%;
@@ -312,7 +316,7 @@ form{
     margin-bottom: 0.5vh;
 }
 
-#submit{
+#submit {
     font-size: 200%;
     background-color: #fcd9df;
     border-radius: 20%;
@@ -322,27 +326,27 @@ form{
     cursor: pointer;
 }
 
-input{
+input {
     font-size: 150%;
 }
 
-#order{
+#order {
     padding: 15px 10px;
     line-height: 140%;
 }
 
-#description-input{
+#description-input {
     background-color: whitesmoke;
     width: 40vh;
     height: 20vh;
     font-size: 150%;
 }
 
-#form-image-container{
+#form-image-container {
     width: 40vh;
 }
 
-#form-image-container > img{
+#form-image-container>img {
     width: 100%;
     height: auto;
     border: #336892 15px double;
@@ -352,17 +356,17 @@ input{
 
 /* for screens from 1750px wide and down */
 
-@media screen and (max-width:1750px){
-    #hero-image{
+@media screen and (max-width:1750px) {
+    #hero-image {
         width: 50%;
         margin-left: 0;
     }
 
-    h2{
+    h2 {
         font-size: 2.5em;
     }
 
-    #desc-text{
+    #desc-text {
         margin-right: 0%;
         width: 50%;
     }
@@ -371,13 +375,13 @@ input{
 
 /* for screens from 1200px wide and down */
 
-@media screen and (max-width:1200px){
-    #logo-and-description{
+@media screen and (max-width:1200px) {
+    #logo-and-description {
         flex-direction: column;
         height: auto;
     }
 
-    #desc-text{
+    #desc-text {
         margin-right: 0%;
         width: 70%;
     }
@@ -385,57 +389,84 @@ input{
 
 
 /* for screens from 920px wide and down */
-@media screen and (max-width:920px){
-    #desc-text{
+@media screen and (max-width:920px) {
+    #desc-text {
         margin-right: 0%;
         width: 90%;
     }
 }
 
 /* for screens from 720px wide and down */
-@media screen and (max-width:720px){
-    header{
-        justify-content: center;
+@media screen and (max-width:750px) {
+    header {
+        flex-direction: column;
     }
 
-    h2{
+    #quote-link {
+        width: 20vh;
+    }
+
+    h2 {
         font-size: 1.8em;
     }
 
-    #desc-text p{
+    #desc-text p {
         font-size: 150%;
     }
 }
 
 /* for screens from 540px wide and down */
-@media screen and (max-width:720px){
-    h2{
+@media screen and (max-width:720px) {
+    h2 {
         font-size: 1.5em;
     }
 
-    #desc-text p{
+    #desc-text p {
         font-size: 125%;
     }
 }
 
 /* for screens from 445px wide and down */
-@media screen and (max-width:445px){
-    h2{
+@media screen and (max-width:445px) {
+    #logo-nav-link {
+        margin: 0;
+        height: 3.43vh;
+    }
+
+    #logo-nav-link h1 {
+        font-size: 2em;
+    }
+
+    #nav-menu {
+        height: auto;
+        flex-direction: column;
+        font-size: 1.2em;
+    }
+
+    .nav-link {
+        margin: 0;
+    }
+
+    #quote-link {
+        width: auto;
+    }
+
+    h2 {
         font-size: 1.25em;
     }
 
-    #desc-text p{
+    #desc-text p {
         font-size: 100%;
     }
 }
 
 /* for screens from 285px wide and down */
-@media screen and (max-width:285px){
-    h2{
+@media screen and (max-width:285px) {
+    h2 {
         font-size: 0.75em;
     }
 
-    #desc-text p{
+    #desc-text p {
         font-size: 75%;
     }
 }
