@@ -70,6 +70,13 @@ li a:hover {
 
 /* Hero & Description Section */
 
+#hero-image-div {
+
+    background-color: #fcd9df;
+    display: flex;
+    justify-content: center;
+}
+
 #logo-and-description {
     width: 100%;
     background-color: #fcd9df;
@@ -81,8 +88,8 @@ li a:hover {
 }
 
 #hero-image {
-    width: 31.5%;
-    margin-left: 10%;
+    width: 100%;
+    object-fit: cover;
 }
 
 #desc-text {
@@ -358,10 +365,10 @@ input {
 /* for screens from 1750px wide and down */
 
 @media screen and (max-width:1750px) {
-    #hero-image {
+    /* #hero-image {
         width: 50%;
         margin-left: 0;
-    }
+    } */
 
     h2 {
         font-size: 2.5em;
@@ -375,6 +382,10 @@ input {
 
 /* for screens from 1300px wide and down */
 @media screen and (max-width:1300px) {
+    #logo-nav-link {
+        height: auto;
+    }
+
     .menu-link-image {
         max-height: 30vh;
     }
@@ -402,6 +413,10 @@ input {
         height: auto;
     }
 
+    #hero-image-div {
+        height: 45vh;
+    }
+
     #desc-text {
         margin-right: 0%;
         width: 70%;
@@ -424,8 +439,10 @@ input {
 
 
 
-/* for screens from 720px wide and down */
-@media screen and (max-width:750px) {
+/* for screens from 770px wide and down */
+@media screen and (max-width:770px) {
+
+
     header {
         flex-direction: column;
     }
@@ -475,6 +492,10 @@ input {
         margin: 0;
     }
 
+    #hero-image-div {
+        height: 20vh;
+    }
+
     #quote-link {
         width: auto;
     }
@@ -490,6 +511,10 @@ input {
 
 /* for screens from 285px wide and down */
 @media screen and (max-width:285px) {
+    #hero-image-div {
+        height: 12vh;
+    }
+
     h2 {
         font-size: 0.75em;
     }
