@@ -27,6 +27,8 @@ header {
 
 }
 
+logo-nav-link-container {}
+
 #logo-nav-link {
     height: 4.43vh;
     text-decoration: none;
@@ -417,6 +419,10 @@ input {
         height: 45vh;
     }
 
+    #hero-image {
+        width: 85%;
+    }
+
     #desc-text {
         margin-right: 0%;
         width: 70%;
@@ -447,8 +453,12 @@ input {
         flex-direction: column;
     }
 
+    #logo-nav-link h1 {
+        line-height: 0.8em
+    }
+
     #quote-link {
-        width: 20vh;
+        width: 25vh;
     }
 
     h2 {
@@ -473,13 +483,17 @@ input {
 
 /* for screens from 445px wide and down */
 @media screen and (max-width:445px) {
+    #logo-nav-link-container {
+        height: 4vh;
+    }
+
     #logo-nav-link {
         margin: 0;
-        height: 3.43vh;
     }
 
     #logo-nav-link h1 {
         font-size: 2em;
+        line-height: 1.9em;
     }
 
     #nav-menu {
@@ -494,6 +508,10 @@ input {
 
     #hero-image-div {
         height: 20vh;
+    }
+
+    #hero-image {
+        width: 75%;
     }
 
     #quote-link {
