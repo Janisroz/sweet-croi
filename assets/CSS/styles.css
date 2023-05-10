@@ -27,16 +27,17 @@ header {
 
 }
 
-logo-nav-link-container {}
+#logo-nav-link-container {
+    margin-left: 1%;
+    height: 7vh;
+}
 
 #logo-nav-link {
-    height: 4.43vh;
     text-decoration: none;
-    margin-left: 1%;
 }
 
 #logo-nav-link h1 {
-    line-height: 1.6em;
+    line-height: 2em;
     font-family: "Blenny", sans-serif;
     font-size: 3em;
 }
@@ -124,7 +125,7 @@ hr {
     padding-top: 0.6%;
     padding-bottom: 0.6%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -144,6 +145,7 @@ hr {
     order: 2;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .menu-link-image {
@@ -162,6 +164,7 @@ hr {
     margin-left: 2%;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .hover-text {
@@ -171,7 +174,7 @@ hr {
     height: 46.5vh;
     width: 46.5vh;
     position: absolute;
-    top: 54vh;
+    top: 0;
     border: #336892 solid;
     border-radius: 600px;
     font-size: 500%;
@@ -201,12 +204,12 @@ hr {
 
 #form-link-heading {
     text-align: center;
-    font-size: 500%;
+    font-size: 300%;
     border: 10px double;
 }
 
 #form-link-section>div {
-    width: 40%;
+    width: 80%;
 }
 
 
@@ -215,7 +218,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5.5vh;
+    height: fit-content;
     width: 100%;
     list-style: none;
     background-color: #fcd9df;
@@ -382,6 +385,30 @@ input {
     }
 }
 
+/* for screens from 1480px wide and down */
+@media screen and (max-width:1480px) {
+    #menu-link-section {
+        flex-wrap: wrap;
+    }
+
+    #menu-link-text {
+        order: 0;
+        width: 100%;
+    }
+
+    #macaron-image {
+        order: 1;
+    }
+
+    #left-image {
+        margin: 0;
+    }
+
+    #menu-link-text {
+        width: 100%;
+    }
+}
+
 /* for screens from 1300px wide and down */
 @media screen and (max-width:1300px) {
     #logo-nav-link {
@@ -395,7 +422,6 @@ input {
     .hover-text {
         height: 30vh;
         width: 30vh;
-        top: 53.5vh;
         font-size: 300%;
 
     }
@@ -429,11 +455,15 @@ input {
         text-align: center;
     }
 
-    .hover-text {
-        top: 87.4vh;
-    }
 }
 
+/* for screens from 1000px wide and down */
+
+@media screen and (max-width:1000px) {
+    .menu-links {
+        width: 50%;
+    }
+}
 
 /* for screens from 920px wide and down */
 @media screen and (max-width:920px) {
@@ -441,6 +471,14 @@ input {
         margin-right: 0%;
         width: 90%;
     }
+
+    #menu-link-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
 }
 
 
@@ -454,11 +492,11 @@ input {
     }
 
     #logo-nav-link h1 {
-        line-height: 0.8em
+        line-height: normal;
     }
 
     #quote-link {
-        width: 25vh;
+        width: 20vh;
     }
 
     h2 {
@@ -468,9 +506,17 @@ input {
     #desc-text p {
         font-size: 150%;
     }
+
+    #menu-link-section {
+        flex-direction: column;
+    }
+
+    #form-link-heading {
+        font-size: 250%;
+    }
 }
 
-/* for screens from 540px wide and down */
+/* for screens from 720px wide and down */
 @media screen and (max-width:720px) {
     h2 {
         font-size: 1.5em;
@@ -478,6 +524,27 @@ input {
 
     #desc-text p {
         font-size: 125%;
+    }
+
+    #form-link-heading {
+        font-size: 200%;
+    }
+
+    #facebook {
+        font-size: 250%;
+        margin-left: 33%;
+    }
+
+    #instagram {
+        margin-right: 33%;
+        font-size: 250%;
+    }
+}
+
+/* for screens from 550px wide and down */
+@media screen and (max-width:550px) {
+    #form-link-heading {
+        font-size: 180%;
     }
 }
 
@@ -525,19 +592,68 @@ input {
     #desc-text p {
         font-size: 100%;
     }
+
+    .menu-links>h2 {
+        font-size: 250%;
+    }
+
+    #form-link-heading {
+        font-size: 140%;
+    }
+
+    #facebook {
+        font-size: 200%;
+        margin-left: 33%;
+    }
+
+    #instagram {
+        margin-right: 33%;
+        font-size: 200%;
+    }
 }
 
-/* for screens from 285px wide and down */
-@media screen and (max-width:285px) {
-    #hero-image-div {
-        height: 12vh;
+
+/* for screens from 370px wide and down */
+@media screen and (max-width:370px) {
+    .menu-link-image {
+        max-height: 20vh;
     }
 
-    h2 {
-        font-size: 0.75em;
+    .hover-text {
+        height: 20vh;
+        width: 20vh;
+        font-size: 200%;
     }
 
-    #desc-text p {
-        font-size: 75%;
+    .menu-links>h2 {
+        font-size: 200%;
+    }
+
+    #form-link-heading {
+        font-size: 120%;
+        width: 90%;
     }
 }
+
+/* for screens from 340px wide and down */
+@media screen and (max-width:340px) {
+    #form-link-heading {
+        font-size: 100%;
+        width: 90%;
+    }
+
+
+    /* for screens from 285px wide and down */
+    @media screen and (max-width:285px) {
+        #hero-image-div {
+            height: 12vh;
+        }
+
+        h2 {
+            font-size: 0.75em;
+        }
+
+        #desc-text p {
+            font-size: 75%;
+        }
+    }
