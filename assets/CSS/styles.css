@@ -29,7 +29,7 @@ header {
 
 #logo-nav-link-container {
     margin-left: 1%;
-    height: 7vh;
+    height: 5vh;
 }
 
 #logo-nav-link {
@@ -249,14 +249,14 @@ i {
 /* menu styles */
 .menu-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .left-container {
     width: 46.5vh;
     height: 46.5vh;
     border: 10px double;
-    margin-left: 15%;
     background-color: #fcd9df;
     margin-bottom: 20px;
 
@@ -266,7 +266,6 @@ i {
     width: 46.5vh;
     height: 46.5vh;
     border: 10px double;
-    margin-right: 15%;
     background-color: #fcd9df;
     margin-bottom: 20px;
 
@@ -274,7 +273,7 @@ i {
 
 .menu-heading {
     text-align: center;
-    font-size: 5.8em;
+    font-size: 4em;
 }
 
 .menu-list {
@@ -284,7 +283,7 @@ i {
 
 .menu-list>li {
     font-weight: 800;
-    font-size: 3em;
+    font-size: 2.5em;
     margin-bottom: 10%;
     text-align: center;
     background-color: #fcd9df;
@@ -357,12 +356,12 @@ input {
 
 #form-image-container {
     width: 40vh;
+    border: #336892 15px double;
 }
 
 #form-image-container>img {
     width: 100%;
     height: auto;
-    border: #336892 15px double;
 }
 
 /* Media Queries */
@@ -428,6 +427,14 @@ input {
 
     .menu-links>h2 {
         font-size: 300%;
+    }
+
+    #form-section {
+        flex-direction: column;
+    }
+
+    form {
+        margin-bottom: 2%;
     }
 
 }
@@ -530,6 +537,20 @@ input {
         font-size: 200%;
     }
 
+    .menu-section {
+        margin: 0 3%;
+    }
+
+    .left-container {
+        width: auto;
+        height: auto;
+    }
+
+    .right-container {
+        width: auto;
+        height: auto;
+    }
+
     #facebook {
         font-size: 250%;
         margin-left: 33%;
@@ -597,6 +618,16 @@ input {
         font-size: 250%;
     }
 
+    .menu-link-image {
+        max-height: 25vh;
+    }
+
+    .hover-text {
+        height: 25vh;
+        width: 25vh;
+        font-size: 300%;
+    }
+
     #form-link-heading {
         font-size: 140%;
     }
@@ -610,50 +641,87 @@ input {
         margin-right: 33%;
         font-size: 200%;
     }
-}
 
-
-/* for screens from 370px wide and down */
-@media screen and (max-width:370px) {
-    .menu-link-image {
-        max-height: 20vh;
+    .menu-section {
+        margin: 0 3%;
     }
 
-    .hover-text {
-        height: 20vh;
-        width: 20vh;
-        font-size: 200%;
+    .left-container {
+        width: auto;
+        height: auto;
     }
 
-    .menu-links>h2 {
-        font-size: 200%;
+    .right-container {
+        width: auto;
+        height: auto;
     }
 
-    #form-link-heading {
-        font-size: 120%;
-        width: 90%;
-    }
-}
-
-/* for screens from 340px wide and down */
-@media screen and (max-width:340px) {
-    #form-link-heading {
-        font-size: 100%;
-        width: 90%;
+    #cupcage-image-container {
+        order: 1;
     }
 
+    #cupcake-text-container {
+        order: 0;
+    }
 
-    /* for screens from 285px wide and down */
-    @media screen and (max-width:285px) {
-        #hero-image-div {
-            height: 12vh;
+    .menu-heading {
+        font-size: 2.5em;
+    }
+
+    .menu-list>li {
+        font-size: 1.8em;
+    }
+
+
+    /* for screens from 370px wide and down */
+    @media screen and (max-width:370px) {
+        .menu-link-image {
+            max-height: 20vh;
         }
 
-        h2 {
-            font-size: 0.75em;
+        .hover-text {
+            height: 20vh;
+            width: 20vh;
+            font-size: 200%;
         }
 
-        #desc-text p {
-            font-size: 75%;
+        .menu-links>h2 {
+            font-size: 200%;
+        }
+
+        #form-link-heading {
+            font-size: 120%;
+            width: 90%;
+        }
+
+        .menu-heading {
+            font-size: 2em;
+        }
+
+        .menu-list>li {
+            font-size: 1.4em;
         }
     }
+
+    /* for screens from 340px wide and down */
+    @media screen and (max-width:340px) {
+        #form-link-heading {
+            font-size: 100%;
+            width: 90%;
+        }
+
+
+        /* for screens from 285px wide and down */
+        @media screen and (max-width:285px) {
+            #hero-image-div {
+                height: 12vh;
+            }
+
+            h2 {
+                font-size: 0.75em;
+            }
+
+            #desc-text p {
+                font-size: 75%;
+            }
+        }

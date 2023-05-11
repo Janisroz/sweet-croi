@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,21 +11,24 @@
     <link rel="stylesheet" href="assets/CSS/styles.css">
     <title>Sweet Croí Menu</title>
 </head>
+
 <body>
     <header>
-        <a href="index.html" id="logo-nav-link">
-            <h1>Sweet Croí</h1>
-        </a>
+        <div id="logo-nav-link-container">
+            <a href="index.html" id="logo-nav-link">
+                <h1>Sweet Croí</h1>
+            </a>
+        </div>
         <nav>
             <ul id="nav-menu">
-                <li>
-                    <a href="index.html" >Home</a>
+                <li class="nav-link">
+                    <a href="index.html">Home</a>
                 </li>
-                <li>
+                <li class="nav-link">
                     <a href="menu.html" class="current-location">Menu</a>
                 </li>
                 <li id="quote-link">
-                    <a href="quote.html" >Get a Quote</a>
+                    <a href="quote.html">Get a Quote</a>
                 </li>
             </ul>
         </nav>
@@ -45,11 +49,11 @@
 
     </section>
     <section class="menu-section">
-        <div class="left-container">
+        <div class="left-container" id="cupcage-image-container">
             <img src="assets/images/cupcake-box.jpg" alt="Box of flower cupcakes" class="menu-list-image">
             </ul>
         </div>
-        <div class="right-container">
+        <div class="right-container" id="cupcake-text-container">
             <h2 class="menu-heading">Cupcake Bouquets</h2>
             <ul class="menu-list">
                 <li><i class="fa-solid fa-cookie-bite"></i> Roses </li>
@@ -70,20 +74,23 @@
             </a>
         </div>
     </section>
-    <footer >
+    <footer>
         <ul id="footer-list">
             <li class="footer-link" id="facebook">
                 <a href="https://www.facebook.com/sweetcroidublin" rel="noopener"
-                aria-label="Visit our Facebook page (opens in a new tab)" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    aria-label="Visit our Facebook page (opens in a new tab)" target="_blank"><i
+                        class="fa-brands fa-facebook"></i></a>
             </li>
             <li id="instagram" class="footer-link">
-                <a href="https://www.instagram.com/sweetcroi/?igshid=YmMyMTA2M2Y%3D"  target="_blank" rel="noopener"
-                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/sweetcroi/?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
     </footer>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/658b5ed3fa.js" crossorigin="anonymous"></script>
-    
+
 </body>
+
 </html>
