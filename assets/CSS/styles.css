@@ -29,7 +29,7 @@ header {
 
 #logo-nav-link-container {
     margin-left: 1%;
-    height: 5vh;
+    height: 7vh;
 }
 
 #logo-nav-link {
@@ -492,18 +492,16 @@ input {
 
 /* for screens from 770px wide and down */
 @media screen and (max-width:770px) {
-
-
     header {
         flex-direction: column;
     }
 
     #logo-nav-link h1 {
-        line-height: normal;
+        margin: 0;
     }
 
     #quote-link {
-        width: 20vh;
+        width: 27vh;
     }
 
     h2 {
@@ -671,57 +669,68 @@ input {
     .menu-list>li {
         font-size: 1.8em;
     }
+}
 
-
-    /* for screens from 370px wide and down */
-    @media screen and (max-width:370px) {
-        .menu-link-image {
-            max-height: 20vh;
-        }
-
-        .hover-text {
-            height: 20vh;
-            width: 20vh;
-            font-size: 200%;
-        }
-
-        .menu-links>h2 {
-            font-size: 200%;
-        }
-
-        #form-link-heading {
-            font-size: 120%;
-            width: 90%;
-        }
-
-        .menu-heading {
-            font-size: 2em;
-        }
-
-        .menu-list>li {
-            font-size: 1.4em;
-        }
+/* for screens from 370px wide and down */
+@media screen and (max-width:370px) {
+    .menu-link-image {
+        max-height: 20vh;
     }
 
-    /* for screens from 340px wide and down */
-    @media screen and (max-width:340px) {
-        #form-link-heading {
-            font-size: 100%;
-            width: 90%;
-        }
+    .hover-text {
+        height: 20vh;
+        width: 20vh;
+        font-size: 200%;
+    }
 
+    .menu-links>h2 {
+        font-size: 200%;
+    }
 
-        /* for screens from 285px wide and down */
-        @media screen and (max-width:285px) {
-            #hero-image-div {
-                height: 12vh;
-            }
+    #form-link-heading {
+        font-size: 120%;
+        width: 90%;
+    }
 
-            h2 {
-                font-size: 0.75em;
-            }
+    .menu-heading {
+        font-size: 2em;
+    }
 
-            #desc-text p {
-                font-size: 75%;
-            }
-        }
+    .menu-list>li {
+        font-size: 1.4em;
+    }
+}
+
+/* for screens from 340px wide and down */
+@media screen and (max-width:340px) {
+    #form-link-heading {
+        font-size: 100%;
+        width: 90%;
+    }
+}
+
+/* for screens from 285px wide and down */
+@media screen and (max-width:285px) {
+    #hero-image-div {
+        height: 12vh;
+    }
+
+    h2 {
+        font-size: 0.75em;
+    }
+
+    #desc-text p {
+        font-size: 75%;
+    }
+}
+
+/* for screens from 800px high and down */
+@media screen and (max-height: 800px; ) {
+    #logo-nav-link-container {
+        height: 10vh;
+    }
+
+    #quote-link {
+        width: 35vh;
+    }
+}
