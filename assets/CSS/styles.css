@@ -59,7 +59,7 @@ li a {
 }
 
 #quote-link {
-    width: 27vh;
+    width: 10vw;
 
 }
 
@@ -365,15 +365,17 @@ input {
 }
 
 /* Media Queries */
+/* for screens from 2000px wide and down */
+
+@media screen and (max-width:2000px) {
+    #quote-link {
+        width: 15vw;
+    }
+}
 
 /* for screens from 1750px wide and down */
 
 @media screen and (max-width:1750px) {
-    /* #hero-image {
-        width: 50%;
-        margin-left: 0;
-    } */
-
     h2 {
         font-size: 2.5em;
     }
@@ -405,6 +407,10 @@ input {
 
     #menu-link-text {
         width: 100%;
+    }
+
+    #quote-link {
+        width: 20vw;
     }
 }
 
@@ -462,6 +468,10 @@ input {
         text-align: center;
     }
 
+    #quote-link {
+        width: 25vw;
+    }
+
 }
 
 /* for screens from 1000px wide and down */
@@ -474,6 +484,10 @@ input {
 
 /* for screens from 920px wide and down */
 @media screen and (max-width:920px) {
+    #quote-link {
+        width: 30vw;
+    }
+
     #desc-text {
         margin-right: 0%;
         width: 90%;
@@ -488,8 +502,6 @@ input {
     #form-image-container {
         width: 80vw;
     }
-
-
 }
 
 
@@ -498,6 +510,7 @@ input {
 @media screen and (max-width:770px) {
     header {
         flex-direction: column;
+        height: 120px;
     }
 
     #logo-nav-link-container {
@@ -511,7 +524,7 @@ input {
     }
 
     #quote-link {
-        width: 15vh;
+        width: 30vw;
     }
 
     h2 {
@@ -550,6 +563,10 @@ input {
 @media screen and (max-width:720px) {
     h2 {
         font-size: 1.5em;
+    }
+
+    #quote-link {
+        width: 36vw;
     }
 
     #desc-text p {
@@ -593,11 +610,16 @@ input {
     }
 }
 
-/* for screens from 550px wide and down */
-@media screen and (max-width:550px) {
+/* for screens from 560px wide and down */
+@media screen and (max-width:560px) {
     #form-link-heading {
         font-size: 180%;
     }
+
+    #quote-link {
+        width: 47vw;
+    }
+
 
     .input-text {
         line-height: normal;
@@ -778,8 +800,8 @@ input {
     }
 }
 
-/* for screens from 800px high and down */
-@media screen and (max-height: 800px; ) {
+/* for screens from 900px high and down */
+@media screen and (max-height: 900px; ) {
     #logo-nav-link-container {
         height: 10vh;
     }
@@ -788,3 +810,5 @@ input {
         width: 35vh;
     }
 }
+
+/* for screens from 00px high and down */
