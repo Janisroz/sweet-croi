@@ -22,8 +22,9 @@ header {
     display: flex;
     align-content: center;
     justify-content: space-between;
-    overflow: hidden;
     align-items: center;
+    height: 8vh;
+    overflow: hidden;
 
 }
 
@@ -273,7 +274,6 @@ i {
 
 .menu-heading {
     text-align: center;
-    font-size: 4em;
 }
 
 .menu-list {
@@ -283,7 +283,7 @@ i {
 
 .menu-list>li {
     font-weight: 800;
-    font-size: 2.5em;
+    font-size: 180%;
     margin-bottom: 10%;
     text-align: center;
     background-color: #fcd9df;
@@ -365,6 +365,37 @@ input {
 }
 
 /* Media Queries */
+/* for screens from 900px high and down */
+@media screen and (max-height: 900px) {
+    #quote-link {
+        width: 30vh;
+    }
+}
+
+/* for screens from 830px high and down */
+@media screen and (max-height: 900px) {
+    #logo-and-description {
+        height: 60vh;
+    }
+}
+
+/* for screens from 670px high and down */
+@media screen and (max-height: 670px) {
+    #logo-and-description {
+        height: 70vh;
+    }
+
+    #quote-link {
+        width: 18vw;
+    }
+
+    #logo-nav-link-container {
+        height: 10vh;
+    }
+}
+
+
+
 /* for screens from 2000px wide and down */
 
 @media screen and (max-width:2000px) {
@@ -459,7 +490,7 @@ input {
     }
 
     #hero-image {
-        width: 85%;
+        width: 65%;
     }
 
     #desc-text {
@@ -537,6 +568,11 @@ input {
 
     #menu-link-section {
         flex-direction: column;
+    }
+
+    .hover-text {
+        font-size: 200%;
+        opacity: 1;
     }
 
     #form-link-heading {
@@ -664,7 +700,7 @@ input {
     }
 
     #hero-image {
-        width: 75%;
+        width: 55%;
     }
 
     #quote-link {
@@ -690,7 +726,6 @@ input {
     .hover-text {
         height: 25vh;
         width: 25vh;
-        font-size: 300%;
     }
 
     #form-link-heading {
@@ -799,16 +834,3 @@ input {
         font-size: 75%;
     }
 }
-
-/* for screens from 900px high and down */
-@media screen and (max-height: 900px; ) {
-    #logo-nav-link-container {
-        height: 10vh;
-    }
-
-    #quote-link {
-        width: 35vh;
-    }
-}
-
-/* for screens from 00px high and down */
