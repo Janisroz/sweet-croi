@@ -116,3 +116,43 @@ View the live site (add link ).
 
 - Git
   - Was used to commit and push code throughout development
+
+## Testing
+
+### Responsiveness
+
+All pages were tested to ensure that the website remains responsive on all browsers and devices starting from screen sizes of 280px wide and upwards. The website was tested on Chrome, Firefox, Edge and Opera browsers.
+
+How to test:
+
+1. Open desired browser and go to SWEET CROI ADD LIVE LINK
+2. Open developer tools by right clicking and selecting inspect
+3. Click responsive button and lower width to 280px 
+4. Increase width by dragging the edge of window to max width
+
+Expected:
+The website responds responsively without horizontal scroll bars appearing or any elements overlapping.
+
+Result:
+The website remained responsive throughout all tests.
+
+The website was also tested on:
+
+1. Iphone 11 Pro
+2. Iphone 11 Max
+3. Samsung S22 Ultra
+
+### Accessibility
+
+[Wave Accesibility Tester](https://wave.webaim.org/) was used to test the accessibility of the web page in order to ensure that the website was fully accesible for all aids.
+
+Testing ensured that all followinf criteria were met:
+
+- All headings were used appropriately and not forgotten about or skipped
+- That contrast was appropriate allowing for users to easily see different sections and differentiate text
+- Aria labels were used correctly
+- That the page is ordered and sectioned appropriately in order to ensure that screen readers can navigate through the page comfortably
+- All non-text items are properly labeled allowing screen readers to read them
+- All form elements have corresponding lavels allowing screen readers to read them
+
+
