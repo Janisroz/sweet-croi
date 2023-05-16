@@ -153,6 +153,24 @@ Testing ensured that all followinf criteria were met:
 - Aria labels were used correctly
 - That the page is ordered and sectioned appropriately in order to ensure that screen readers can navigate through the page comfortably
 - All non-text items are properly labeled allowing screen readers to read them
-- All form elements have corresponding lavels allowing screen readers to read them
+- All form elements have corresponding labels allowing screen readers to read them
 
+## Functional Testing
 
+### Navigation Links
+
+Testing was performed in order to confirm all navigation links across the website were in working order and linking to correct page.
+
+All links on the page were working correctly see below for list of tested links:
+
+| Link        | Page to Load           |
+| ------------- |:-------------:|
+| Home     | index.html |
+| Menu      | menu.html      |
+| Get a Quote | quote.html      |
+
+### Form Testing
+
+All form elements were tested to insure that they were producing expected results.
+
+* Firstly the form was tested on 

@@ -364,6 +364,33 @@ input {
     height: auto;
 }
 
+/* Form Successs Page */
+.body-stretch {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.submission {
+    text-align: center;
+}
+
+#thanks-heading {
+    line-height: 200%;
+}
+
+#success-line {
+    width: 90vw;
+    background-color: #fcd9df;
+    height: 10px;
+    margin: 0 auto;
+}
+
+.footer-bottom {
+    margin-top: auto;
+}
+
 /* Media Queries */
 /* for screens from 900px high and down */
 @media screen and (max-height: 900px) {
