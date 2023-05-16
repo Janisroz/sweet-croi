@@ -127,7 +127,7 @@ How to test:
 
 1. Open desired browser and go to SWEET CROI ADD LIVE LINK
 2. Open developer tools by right clicking and selecting inspect
-3. Click responsive button and lower width to 280px 
+3. Click responsive button and lower width to 280px
 4. Increase width by dragging the edge of window to max width
 
 Expected:
@@ -163,14 +163,35 @@ Testing was performed in order to confirm all navigation links across the websit
 
 All links on the page were working correctly see below for list of tested links:
 
-| Link        | Page to Load           |
-| ------------- |:-------------:|
-| Home     | index.html |
-| Menu      | menu.html      |
-| Get a Quote | quote.html      |
+| Link        | Page to Load |
+| ----------- | :----------: |
+| Home        |  index.html  |
+| Menu        |  menu.html   |
+| Get a Quote |  quote.html  |
 
 ### Form Testing
 
 All form elements were tested to insure that they were producing expected results.
 
-* Firstly the form was tested on 
+- Firstly the form was tested with all inputs added correctly
+  - Name: Janis
+  - Email: test@gmail.com
+  - Describe your Order: Tasty One
+
+When submit was clicked user was redirected to form-success.html as expected
+
+- Next the name field was left out Email & Describe your Order remained the same
+
+When submit was clicked user was informed that the name field was required
+
+- Next the email field was inputted as jack.com, this format did not match what is required as an email field, Name & Describe your Order remained the same as in first test
+
+When submit was clicked user was informed that the email field required the correct format of text@text.text
+
+- Next the Describe your Quote field was left empty, Name & Email remained the same as in first test
+
+When submit was clicked user was informed that the Describe your Quote section was required
+
+### Footer
+
+- Testing was performed on both the Facebook and Instagram links insuring that they are opening in new tabs
