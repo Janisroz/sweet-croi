@@ -228,3 +228,30 @@ Git commands were used to push code to the remote repositort:
 - `git add <file>` was used to add a file or multiple files to the staging area
 - `git commit -m "commit detail"` was used to commit changes to the local repository queue before being pushed to github
 - `git push` was used to push all commited code and files to the repository on gihub
+
+### Deployment to Github Pages
+
+Github pages was used to deploy the website.
+Steps to deployment are as follows:
+
+- Click on the settings button within the required repo
+- Click on the "Pages" tab in the settings page in the menu on the left
+- Select "main" branch from the branch dropdown menu
+- Click "Save"
+- The link will appear at the top of the page once the website is deployed
+
+The live website can be found here: [https://janisroz.github.io/sweet-croi/index.html](https://janisroz.github.io/sweet-croi/index.html)
+
+### To Clone the Repository Code Locally
+
+- Begin in the required repository 
+- Click on the green code drop down button and select local
+- Copy the repository link to the clipboard
+- Using an IDE with pre-installed git type `git clone copied-git-url` into the IDE terminal
+- The project will now be cloned on your IDE to use
+
+## Credits
+
+### Content
+
+All images were taken from the Sweet Crpo instagram page owned by the business owner. Permission was granted before use of any images
