@@ -177,7 +177,7 @@ hr {
     position: absolute;
     top: 0;
     border: #336892 solid;
-    border-radius: 600px;
+    border-radius: 100%;
     font-size: 500%;
     background-color: rgb(252, 217, 223, 0.5);
     font-family: "Blenny", sans-serif;
