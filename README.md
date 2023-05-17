@@ -195,3 +195,36 @@ When submit was clicked user was informed that the Describe your Quote section w
 ### Footer
 
 - Testing was performed on both the Facebook and Instagram links insuring that they are opening in new tabs
+- Both links opened new tabs on the expected pages
+
+## Validator Testing
+
+### HTML
+
+- No errors were found when tested by the official [W3C validator](https://validator.w3.org/)
+
+![An image of the main page passing the official W3C validator html test](assets/images/menu-page-html-test.jpg)
+
+![An image of the menu page passing the official W3C validator html test](assets/images/menu-page-html-test.jpg)
+
+![An image of the quote page passing the official W3C validator html test](assets/images/quote-page-html-test.jpg)
+
+![An image of the form success page passing the official W3C validator html test](assets/images/form-success-page-html-test.jpg)
+
+### CSS
+
+- No errors were found when tested by the official [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
+
+![An image of the websites CSS passing the official Jigsaw CSS validator](assets/images/css-validation.jpg)
+
+## Deployment
+
+### Version Control
+
+The website was created using the Code Anywhere IDE and was pushed to the github repository "sweet-croi".
+
+Git commands were used to push code to the remote repositort:
+
+- `git add <file>` was used to add a file or multiple files to the staging area
+- `git commit -m "commit detail"` was used to commit changes to the local repository queue before being pushed to github
+- `git push` was used to push all commited code and files to the repository on gihub
