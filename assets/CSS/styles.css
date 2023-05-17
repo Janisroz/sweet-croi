@@ -111,7 +111,7 @@ h2 {
 
 #desc-text p {
     background-color: inherit;
-    font-size: 200%;
+    font-size: 180%;
     font-weight: 550;
 }
 
@@ -150,10 +150,10 @@ hr {
 }
 
 .menu-link-image {
-    max-height: 46.5vh;
+    max-height: 40vh;
     object-fit: cover;
     border: solid;
-    border-radius: 46.5vh;
+    border-radius: 40vh;
 }
 
 .menu-links>h2 {
