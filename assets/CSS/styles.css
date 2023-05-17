@@ -85,7 +85,7 @@ li a:hover {
     width: 100%;
     background-color: #fcd9df;
     overflow: hidden;
-    height: 45vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -172,8 +172,8 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 46.5vh;
-    width: 46.5vh;
+    height: 40vh;
+    width: 40vh;
     position: absolute;
     top: 0;
     border: #336892 solid;
@@ -252,11 +252,11 @@ i {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .left-container {
     width: 46.5vh;
-    height: 46.5vh;
     border: 10px double;
     background-color: #fcd9df;
     margin-bottom: 20px;
@@ -265,7 +265,6 @@ i {
 
 .right-container {
     width: 46.5vh;
-    height: 46.5vh;
     border: 10px double;
     background-color: #fcd9df;
     margin-bottom: 20px;
@@ -400,7 +399,7 @@ input {
 }
 
 /* for screens from 830px high and down */
-@media screen and (max-height: 900px) {
+@media screen and (max-height: 830px) {
     #logo-and-description {
         height: 60vh;
     }
