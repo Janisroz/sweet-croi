@@ -1,8 +1,8 @@
 # Sweet Croí
 
-Sweet Croí is a website for a small Irish bakery that specializes in macaoons and cupcake bouquets that allows users to view a menu and get a quote for the products that Sweet Croí offers.
+Sweet Croí is a website for a small Irish bakery that specializes in macaroons and cupcake bouquets that allows users to view a menu and get a quote for the products that Sweet Croí offers.
 
-View the live site (add link ).
+View the live site [https://janisroz.github.io/sweet-croi/](https://janisroz.github.io/sweet-croi/).
 
 ![A multi-device mockup of the Sweet Croí website](assets/images/multi-device-mockup.jpg)
 
@@ -125,7 +125,7 @@ All pages were tested to ensure that the website remains responsive on all brows
 
 How to test:
 
-1. Open desired browser and go to SWEET CROI ADD LIVE LINK
+1. Open desired browser and go to SWEET CROI [Link](https://janisroz.github.io/sweet-croi/)
 2. Open developer tools by right clicking and selecting inspect
 3. Click responsive button and lower width to 280px
 4. Increase width by dragging the edge of window to max width
@@ -141,6 +141,7 @@ The website was also tested on:
 1. Iphone 11 Pro
 2. Iphone 11 Max
 3. Samsung S22 Ultra
+4. Oneplus Nord
 
 ### Accessibility
 
