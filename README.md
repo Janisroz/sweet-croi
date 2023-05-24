@@ -118,6 +118,10 @@ View the live site [https://janisroz.github.io/sweet-croi/](https://janisroz.git
 
   - <https://fontawesome.com/> was used for the social media icons in the footer and for the menu bullet points
 
+- Favicon.io
+
+  - <https://favicon.io/> was used to create the favicon image
+
 - Code Anywhere
 
   - Code Anywhere was used as the IDE to develop the website
@@ -265,6 +269,13 @@ The live website can be found here: [https://janisroz.github.io/sweet-croi/index
 
 ## Credits
 
+- favicon steps were taken from the DeeMc youtube channel- [https://www.youtube.com/watch?v=W809I-d9xTg&ab_channel=DeeMc](https://www.youtube.com/watch?v=W809I-d9xTg&ab_channel=DeeMc)
+
 ### Content
 
 All images were taken from the Sweet Crpo instagram page owned by the business owner. Permission was granted before use of any images
+
+### Final Notes
+
+Some vague commits regarding the README updates can be found due to updating on the github website and these commits were auto-generated.
+Once was made aware that commits needed to be more specific this was addressed
