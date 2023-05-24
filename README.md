@@ -44,7 +44,7 @@ View the live site [https://janisroz.github.io/sweet-croi/](https://janisroz.git
 
 ![A image of the what we offer section of the website depicting two images one of macarons and one of a cupcake bouquet](docs/images/what-we-offer.jpg)
 
-![A image of the what we offer section of the website depicting two images one of macarons and one of a cupcake bouquet this time showing the effect when hovering over the images](docs/images/what-we-offer-hover.jpg))
+![A image of the what we offer section of the website depicting two images one of macarons and one of a cupcake bouquet this time showing the effect when hovering over the images](docs/images/what-we-offer-hover.jpg)
 
 - Get a Quote
   - This section contains text that links to the get a quote website allowing users who are looking for more information to easily get in touch
@@ -104,7 +104,7 @@ View the live site [https://janisroz.github.io/sweet-croi/](https://janisroz.git
 
 - HTML
 
-  - Website structure and contact was developed using HTML
+  - Website structure and content was developed using HTML
 
 - CSS
 
@@ -163,7 +163,7 @@ The website was also tested on:
 
 [Wave Accesibility Tester](https://wave.webaim.org/) was used to test the accessibility of the web page in order to ensure that the website was fully accesible for all aids.
 
-Testing ensured that all followinf criteria were met:
+Testing ensured that all following criteria was met:
 
 - All headings were used appropriately and not forgotten about or skipped
 - That contrast was appropriate allowing for users to easily see different sections and differentiate text
@@ -176,7 +176,7 @@ Testing ensured that all followinf criteria were met:
 
 ### Navigation Links
 
-Testing was performed in order to confirm all navigation links across the website were in working order and linking to correct page.
+Testing was performed in order to confirm all navigation links across the website were in working order and linking to the correct page.
 
 All links on the page were working correctly see below for list of tested links:
 
@@ -269,11 +269,11 @@ The live website can be found here: [https://janisroz.github.io/sweet-croi/index
 
 ## Credits
 
-- favicon steps were taken from the DeeMc youtube channel- [https://www.youtube.com/watch?v=W809I-d9xTg&ab_channel=DeeMc](https://www.youtube.com/watch?v=W809I-d9xTg&ab_channel=DeeMc)
+- favicon creation steps were taken from the DeeMc youtube channel- [https://www.youtube.com/watch?v=W809I-d9xTg&ab_channel=DeeMc](https://www.youtube.com/watch?v=W809I-d9xTg&ab_channel=DeeMc)
 
 ### Content
 
-All images were taken from the Sweet Crpo instagram page owned by the business owner. Permission was granted before use of any images
+All images were taken from the Sweet Croi instagram page owned by the business owner. Permission was granted before use of any images
 
 ### Final Notes
 
