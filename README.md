@@ -4,7 +4,7 @@ Sweet Croí is a website for a small Irish bakery that specializes in macaroons 
 
 View the live site [https://janisroz.github.io/sweet-croi/](https://janisroz.github.io/sweet-croi/).
 
-![A multi-device mockup of the Sweet Croí website](assets/images/multi-device-mockup.jpg)
+![A multi-device mockup of the Sweet Croí website](docs/images/multi-device-mockup.jpg)
 
 ## Features
 
@@ -14,19 +14,19 @@ View the live site [https://janisroz.github.io/sweet-croi/](https://janisroz.git
   - Contains links to the Home, Menu and Get a Quote pages and is responsive on all devices
   - Allows for easy navigation across all pages of the website
 
-![A image of the websites nav-bar](assets/images/nav-bar.jpg)
+![A image of the websites nav-bar](docs/images/nav-bar.jpg)
 
 - Logo Link
   - A basic logo that links back to the Home page of the website from any location
 
-![A image of the websites logo khat links to the home page](assets/images/logo-link.jpg)
+![A image of the websites logo khat links to the home page](docs/images/logo-link.jpg)
 
 - Footer
   - Contains social media links via the respective logos to the Facebook and Instagram pages of the business
   - Opens the links in new tabs for user friendliness
   - Are accessible to screen reader users through aria labels.
 
-![A image of the website footer containing links to Facebook and Instagram via their logos](assets/images/footer-images.jpg)
+![A image of the website footer containing links to Facebook and Instagram via their logos](docs/images/footer-images.jpg)
 
 ### Home Page
 
@@ -34,7 +34,7 @@ View the live site [https://janisroz.github.io/sweet-croi/](https://janisroz.git
   - This section contains an image of the Sweet Croí logo and also a brief description of what the company is.
   - Allows users to understand the purpose of the website.
 
-![A image of the websites home page hero image and description section the image is of the logo and text states "Delicious, freshly baked treat born and baked in Dublin 15](assets/images/hero-image-and-description.jpg)
+![A image of the websites home page hero image and description section the image is of the logo and text states "Delicious, freshly baked treat born and baked in Dublin 15](docs/images/hero-image-and-description.jpg)
 
 - What We Offer
   - This section contains two images and text in the middle showing users what the business offers.
@@ -42,14 +42,14 @@ View the live site [https://janisroz.github.io/sweet-croi/](https://janisroz.git
   - When a user hovers over the images overlay text will appear describing the image contains.
   - As screen sizes decrease the text that appears on hover will appear permanently.
 
-![A image of the what we offer section of the website depicting two images one of macarons and one of a cupcake bouquet](assets/images/What-we-offer.jpg)
+![A image of the what we offer section of the website depicting two images one of macarons and one of a cupcake bouquet](docs/images/what-we-offer.jpg)
 
-![A image of the what we offer section of the website depicting two images one of macarons and one of a cupcake bouquet this time showing the effect when hovering over the images](assets/images/What-we-offer-hover.jpg)
+![A image of the what we offer section of the website depicting two images one of macarons and one of a cupcake bouquet this time showing the effect when hovering over the images](docs/images/what-we-offer-hover.jpg))
 
 - Get a Quote
   - This section contains text that links to the get a quote website allowing users who are looking for more information to easily get in touch
 
-![A image of the get a quote section of the website it links to the get a quote page](assets/images/Get-A-Quote.jpg)
+![A image of the get a quote section of the website it links to the get a quote page](docs/images/get-a-quote.jpg)
 
 ### Menu Page
 
@@ -58,12 +58,12 @@ View the live site [https://janisroz.github.io/sweet-croi/](https://janisroz.git
   - The purpose of this section is to offer users a location to view the products offered by the bakery consisting of macarons and cupcake bouquets, and the flavors/types offered.
   - As the page scales down the tiles change from a row to a column orientation
 
-  ![Image of the menu section that scales to vertical order as display decreases](assets/images/Menu-Section.jpg)
+  ![Image of the menu section that scales to vertical order as display decreases](docs/images/menu-section.jpg)
 
   - Get a Quote
   - This section contains text that links to the get a quote website allowing users who are looking for more information to easily get in touch
 
-![A image of the get a quote section of the website it links to the get a quote page](assets/images/Get-A-Quote.jpg)
+![A image of the get a quote section of the website it links to the get a quote page](docs/images/get-a-quote.jpg)
 
 ### Quote Page
 
@@ -74,7 +74,7 @@ View the live site [https://janisroz.github.io/sweet-croi/](https://janisroz.git
     - Email (type:email, required)
     - Describe your orderv(type: textarea, required)
 
-![An image of the form section of the website consisting of the form and an image of some macarons](assets/images/quote-form.jpg)
+![An image of the form section of the website consisting of the form and an image of some macarons](docs/images/quote-form.jpg)
 
 ## Existing Features
 
@@ -204,19 +204,19 @@ When submit was clicked user was informed that the Describe your Quote section w
 
 - No errors were found when tested by the official [W3C validator](https://validator.w3.org/)
 
-![An image of the main page passing the official W3C validator html test](assets/images/menu-page-html-test.jpg)
+![An image of the main page passing the official W3C validator html test](docs/images/main-page-html-test.jpg)
 
-![An image of the menu page passing the official W3C validator html test](assets/images/menu-page-html-test.jpg)
+![An image of the menu page passing the official W3C validator html test](docs/images/menu-page-html-test.jpg)
 
-![An image of the quote page passing the official W3C validator html test](assets/images/quote-page-html-test.jpg)
+![An image of the quote page passing the official W3C validator html test](docs/images/quote-page-html-test.jpg)
 
-![An image of the form success page passing the official W3C validator html test](assets/images/form-success-page-html-test.jpg)
+![An image of the form success page passing the official W3C validator html test](docs/images/form-success-page-html-test.jpg)
 
 ### CSS
 
 - No errors were found when tested by the official [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
 
-![An image of the websites CSS passing the official Jigsaw CSS validator](assets/images/css-validation.jpg)
+![An image of the websites CSS passing the official Jigsaw CSS validator](docs/images/css-validation.jpg)
 
 ## Deployment
 
