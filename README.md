@@ -76,6 +76,10 @@ View the live site [https://janisroz.github.io/sweet-croi/](https://janisroz.git
 
 ![An image of the form section of the website consisting of the form and an image of some macarons](docs/images/quote-form.jpg)
 
+### 404 Page
+
+- This page was implemented to ensure that if a user follows a broken link they will easily be able to navigate back to their required page without using browsers back button
+
 ## Existing Features
 
 - Responsive design
@@ -245,7 +249,7 @@ The live website can be found here: [https://janisroz.github.io/sweet-croi/index
 
 ### To Clone the Repository Code Locally
 
-- Begin in the required repository 
+- Begin in the required repository
 - Click on the green code drop down button and select local
 - Copy the repository link to the clipboard
 - Using an IDE with pre-installed git type `git clone copied-git-url` into the IDE terminal
