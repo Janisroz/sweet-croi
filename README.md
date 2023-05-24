@@ -80,6 +80,14 @@ View the live site [https://janisroz.github.io/sweet-croi/](https://janisroz.git
 
 - This page was implemented to ensure that if a user follows a broken link they will easily be able to navigate back to their required page without using browsers back button
 
+![An image of the 404 page](docs/images/404-page.jpg)
+
+### favicon
+
+- A favicon of the Sweet Croí logo was added to all pages in order to allow users to easily spot the website tab when multiple browser tabs are open
+
+![An image of the site wide favicon](docs/images/favicon.jpg)
+
 ## Existing Features
 
 - Responsive design
