@@ -389,6 +389,11 @@ input {
     margin-top: auto;
 }
 
+#404-heading {
+    line-height: 200%;
+    margin-top: 3vh;
+}
+
 /* Media Queries */
 /* for screens from 900px high and down */
 @media screen and (max-height: 900px) {
